@@ -86,5 +86,20 @@ module.exports = {
    2. 目前不支持修改workspace内的md文件名（稍后更新会支持）
 
 ## 版本更新
-  20201009：v1.0.4
+  20201009：v1.0.0
+
+## 原理
+  1. 创建文档工程目录
+     src ->
+       js
+       css
+       html
+     workspace
+  2. 创建文件
+     复制：js/css/welcome.html
+     编译：index.html      / md.html
+          createIndexHtml   mdToHtml
+  3. 监听文件及文件夹变化
+     watchHtml    /  watchMarkdown
+     监听html文件夹    监听workspace文件夹
 
