@@ -1,6 +1,6 @@
 {
   "name": "vite-doc-creator",
-  "version": "0.2.0",
+  "version": "0.7.0",
   "description": "A fast and light Document Creator 一个轻快的文档生成器",
   "main": "index.js",
   "scripts": {
