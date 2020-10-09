@@ -1,0 +1,76 @@
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header,
+.side-bar,
+.page {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.header {
+  z-index: 2;
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  line-height: 60px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.side-bar {
+  z-index: 1;
+  width: 250px;
+  height: 100%;
+  background-color: #ededed;
+  padding: 90px 15px 30px;
+  box-sizing: border-box;
+}
+
+.side-bar .menu-item {
+  height: 40px;
+  line-height: 40px;
+}
+
+.side-bar .menu-item.active a {
+  color: #42b983;
+  font-weight: bold;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0 0 280px;
+  box-sizing: border-box;
+}
+
+.page iframe {
+  width: 100%;
+  height: 100%;
+}

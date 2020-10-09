@@ -1,0 +1,32 @@
+body {
+  padding-right: 50px;
+}
+
+ul li,
+ol li {
+  padding: 15px 0;
+}
+
+blockquote {
+  margin: 16px 0;
+}
+
+blockquote p {
+  background-color: #ededed;
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: #666;
+}
+
+blockquote p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+pre {
+  background-color: #ededed;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
