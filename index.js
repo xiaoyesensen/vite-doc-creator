@@ -2,7 +2,7 @@
 const {
   initFolders,
   initFiles,
-  initWatchers
+  // initWatchers
 } = require('./init');
 
 class ViteDocCreator {
@@ -31,7 +31,7 @@ class ViteDocCreator {
     // 初始化项目文件
     initFiles(this.options);
     // 初始化监听html与markdown文件及文件夹变化程序
-    initWatchers(this.options);
+    // initWatchers(this.options);
   }
 }
 
