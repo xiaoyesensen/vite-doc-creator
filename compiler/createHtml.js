@@ -66,7 +66,11 @@ function createIndexHtml (options) {
    * path：创建一个文件的路径及文件名
    * content：在这个文件中写入什么内容
    */
-  writeFileSync(rootPath + '/index.html', newHtml);
+  writeFileSync(rootPath + '/index.html', newHtml, function (err) {
+    if (err) {
+      throw new Error('File is failed to write.', err);
+    }
+  });
 }
 
 module.exports = {

@@ -47,7 +47,9 @@ const regexp = {
   // 匹配header-title中的内容
   reg_headerTitleContent: /<h1 class=\"header-title\">([\s\S]*?)<\/h1>/,
   // 匹配iframe page中的内容
-  reg_iframeContent: /<div class=\"iframe-page\">([\s\S]*?)<\/div>/
+  reg_iframeContent: /<div class=\"iframe-page\">([\s\S]*?)<\/div>/,
+  // 匹配md.html内部的{{newStr}}
+  reg_mdStr: /\{\{(.+?)\}\}/
 }
 
 module.exports = {
