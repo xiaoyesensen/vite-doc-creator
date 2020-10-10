@@ -21,8 +21,8 @@ const {
 function initFiles (options) {
   copyFiles('css');
   copyFiles('js');
-  createIndexHtml(options);
   copyWelcomePage();
+  createIndexHtml(options);
 }
 
 function copyFiles (field) {
